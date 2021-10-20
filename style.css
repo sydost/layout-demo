@@ -107,16 +107,22 @@ p.lmheader {
   margin-top: 25px;
 }
 
-.paragraph, .list {
-  font-family: cursive;
-  font-size: 125%;
+#learnMore {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  margin-left: 50px;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1rem;
+  padding: 0 50px;
 }
 
-.list {
-    display: list-item;
+.paragraph {
+  font-family: cursive;
+  font-size: 125%;
+}
+
+.list ul {
+  list-style: disc;
+  font-family: cursive;
+  font-size: 125%;
 }
 
 .paragraph a{
@@ -135,9 +141,4 @@ p.lmheader {
   color: white;
   display: flex;
   justify-content: center;
-}
-
-li{
-  display: inline;
-  padding: 15px;
 }
