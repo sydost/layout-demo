@@ -1,0 +1,143 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.topmenu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.topmenu {
+  display: block;
+  background-color: #535353;
+  color: white;
+  font-family: monospace;
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.topmenu a {
+  text-decoration: none;
+  color: white;
+}
+.topmenu a:hover {
+  color: grey;
+}
+
+.header h1 {
+    color: #0e0e0e;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+
+.header h2 {
+  color: #383838;
+  font-size: 110%;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  padding: 50px;
+}
+
+.boarder {
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #535353;
+}
+
+#reasonlist {
+  display: flex;
+  height: 225px;
+  justify-content: space-between;
+  background-color: #535353;
+}
+
+h1.hone, h1.htwo, h1.hthree {
+  font-family: serif;
+  color: #a8a8a8;
+  font-size: 300%;
+  display: flex;
+  justify-content: center;
+}
+
+p.pone, p.ptwo, p.pthree {
+  font-family: cursive;
+  color: white;
+  font-size: 100%;
+  width: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.reasond1, .reasond2, .reasond3 {
+  margin: auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: #dadada;
+}
+
+p.r1, p.r2, p.r3 {
+  font-family: cursive;
+  font-size: 115%;
+  margin-top: -10px;
+margin-left: 1em;
+}
+
+p.lmheader {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.paragraph, .list {
+  font-family: cursive;
+  font-size: 125%;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  margin-left: 50px;
+}
+
+.list {
+    display: list-item;
+}
+
+.paragraph a{
+  color: black;
+}
+
+.paragraph a:hover{
+  color: grey;
+}
+
+
+.footer {
+  font-family: fantasy;
+  font-size: 100%;
+  background-color: #535353;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  display: inline;
+  padding: 15px;
+}
